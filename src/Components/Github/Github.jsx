@@ -42,10 +42,10 @@ function Github() {
 
 export default Github
 
-export const githubLoader = async ()=>{
-    const response = await fetch("https://api.github.com/users/ankit-kr27")
-    return response.json();
-}
+// export const githubLoader = async ()=>{
+//     const response = await fetch("https://api.github.com/users/ankit-kr27")
+//     return response.json();
+// }
 
 // DATA FLOW
 // githubLoader(Github) -> <Route loader={githubLoader}/>(main) -> useLoaderData()(Github)

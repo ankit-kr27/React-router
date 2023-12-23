@@ -8,7 +8,8 @@ import Home from './Components/Home/Home.jsx'
 import About from './Components/About/About.jsx'
 import Contact from './Components/Contact Us/Contact.jsx'
 import User from './Components/User/User.jsx'
-import Github, {githubLoader} from './Components/Github/Github.jsx'
+import Github from './Components/Github/Github.jsx'
+import { githubLoader } from './utility.js'
 
 // One of the ways of routing
 const router = createBrowserRouter(
